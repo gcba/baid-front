@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7 "><![endif]-->
+<!--[if IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="es" class="lt-ie10 lt-ie9 "> <![endif]-->
+<!--[if IE 9]><html lang="es" class="lt-ie10 "> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="es" class=""> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio externo del Gobierno de la Ciudad de Buenos Aires.">
+    <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
+    <title>BA ID</title>
+    <link rel="shortcut icon" href="assets/bastrap3/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="assets/bastrap3/favicon-mobile.png">
+    <link rel="stylesheet" href="assets/bastrap3/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bastrap3/bastrap.css">
+    <link rel="stylesheet" href="assets/css/baid-styles.css">
+    
+    <!-- ESTILOS EXTRA -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-primary navbar-top">
+      <div class="container">
+        <a class="navbar-brand bac-header" href="index.html">Buenos Aires Ciudad</a>
+      </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main class="main-container" role="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="h2">Registrá tu cuenta de la Ciudad</h1>
+            <p>Completá los datos para recibir un correo electrónico con los pasos a seguir para confirmar el registro.</p>
+            <br><br>
+            <form action="4b-registro-mail.html">
+              <div class="form-group">
+                <input class="form-control input-lg" type="email" placeholder="Correo Electrónico" id="Email" required>
+              </div>
+              <div class="form-group">
+                <input class="form-control input-lg" type="password" placeholder="Contraseña" id="Password" required>
+              </div>
+              <div class="g-recaptcha center-block" data-sitekey="6LckYwMTAAAAAPcr-kQ56tKKF0iqVinQ-qbmQcOW"></div>
+              <br>
+              <button class="btn btn-primary btn-xl btn-block">Registrate</button>
+            </form>
+            <br>
+            <p class="text-muted">O registrate usando...</p>
+            <br>
+            <div class="btn-group btn-group-justified">
+              <a href="#" class="btn btn-default btn-lg"><span class="social-icon social-fb"></span> &nbsp; Facebook</a>
+              <a href="#" class="btn btn-default btn-lg"><span class="social-icon social-gp"></span> &nbsp; Google</a>
+            </div>
+            <br><br>
+            <p class="text-muted">Registrandote estás aceptando los <br><a href="0-terminos.html">Términos de uso y privacidad</a></p>
+            <br>
+            <a href="index.html" class="btn btn-link btn-block">Volver</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FIN DE CONTENIDO -->
+
+    <script src="assets/bastrap3/jquery.min.js"></script>
+    <script src="assets/bastrap3/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- JAVASCRIPT EXTRA -->
+  </body>
+</html>
